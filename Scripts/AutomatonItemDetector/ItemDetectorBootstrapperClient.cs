@@ -7,7 +7,8 @@ namespace CryoFall.Automaton
   {
     public override void ClientInitialize()
     {
-      AutomatonManager.AddFeature(FeatureItemDetector.Instance);
+      // Automaton automatically finds features
+      // AutomatonManager.AddFeature(FeatureItemDetector.Instance);
     }
   }
 }
